@@ -1,24 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Cindy_Zacarias from './assets/images/Cindy_Zacarias.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My New CV.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1 className="h1m p-5">Hola, Soy Cindy</h1>
+    <img src={Cindy_Zacarias} className="rounded mx-auto d-block img-fluid" alt="CZ" />
+    </>
   );
 }
 

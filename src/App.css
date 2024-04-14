@@ -5,13 +5,37 @@ h1, h2 {
 }
 
 .h1m {
-  font-size: 120px;
+  font-size: 80px;
+}
+.list-group {
+  flex-direction: row !important;
+  justify-content: center;
+  list-style: none;
+}
+.list-group >li >a {
+  color: #000000;
+}
+.bi {
+  font-size: 3em;
+  padding: 15px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .h1m {
-    font-size: 60px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 50px;
+  }
+  img {
+    width: 300px;
+  }
+  .list-group {
+    margin-top: 3em;
+  }
+  .bi {
+    font-size: 3em;
+    padding: 15px;
   }  
 }
 
